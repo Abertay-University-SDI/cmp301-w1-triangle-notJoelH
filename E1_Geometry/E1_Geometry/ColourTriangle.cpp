@@ -31,13 +31,13 @@ void ColourTriangle::initBuffers(ID3D11Device* device)
 
 	// Load the vertex array with data.
 	vertices[0].position = XMFLOAT3(0.0f, 1.0f, 0.0f);  // Top.
-	vertices[0].colour = XMFLOAT4(1.0f, 1.0f, 1.0f, 1.0f);
+	vertices[0].colour = XMFLOAT4(1.0f, 0.0f, 0.0f, 1.0f);
 
 	vertices[1].position = XMFLOAT3(-1.0f, 0.0f, 0.0f);  // bottom left.
-	vertices[1].colour = XMFLOAT4(1.0f, 1.0f, 1.0f, 1.0f);
+	vertices[1].colour = XMFLOAT4(0.0f, 1.0f, 0.0f, 1.0f);
 
 	vertices[2].position = XMFLOAT3(1.0f, 0.0f, 0.0f);  // bottom right.
-	vertices[2].colour = XMFLOAT4(1.0f, 1.0f, 1.0f, 1.0f);
+	vertices[2].colour = XMFLOAT4(0.0f, 0.0f, 1.0f, 1.0f);
 
 	// Load the index array with data.
 	indices[0] = 0;  // Top/
