@@ -26,8 +26,7 @@ OutputType main(InputType input)
 	OutputType output;
 	
 	//Apply Scaling to Triangle
-    float scale = 0.5f;
-	
+    float scale = 1.0f;
 	
 	// Change the position vector to be 4 units for proper matrix calculations.
 	input.position.w *= scale;
